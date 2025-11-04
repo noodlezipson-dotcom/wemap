@@ -1,19 +1,21 @@
-# 🎈 Blank app template
+# Open-Meteo Interactive Weather Dashboard
 
-A simple Streamlit app template for you to modify!
+一个基于Streamlit的交互式天气仪表板，使用Open-Meteo API提供全球天气数据。
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 功能特点
 
-### How to run it on your own machine
+- 🌍 **交互式地图**: 点击地图选择位置查看天气
+- 📍 **坐标输入**: 手动输入经纬度坐标
+- 🌤️ **实时天气**: 显示当前温度、风速、风向和天气状况
+- 📊 **时间预报**: 24小时温度预报
+- 🕒 **多语言支持**: 韩文界面
+- 📱 **响应式设计**: 适配各种设备屏幕
 
-1. Install the requirements
+## 安装和运行
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+### 本地运行
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+1. 克隆仓库:
+```bash
+git clone https://github.com/your-username/open-meteo-weather-dashboard.git
+cd open-meteo-weather-dashboard
